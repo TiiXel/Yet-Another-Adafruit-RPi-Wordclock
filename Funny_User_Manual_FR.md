@@ -82,7 +82,7 @@ message personnalisé, en rapport avec la date du jour.
 
 Ce mode d'affichage est précis à plus ou moins trois minutes. L'affichage
 indiquera "Il est une heure est quart" de 01:13 à 01:17 inclus. Chaque heure
-est découpées en tranches de cinq minutes.
+est découpée en tranches de cinq minutes.
 
 #### Fonctionnement "Horloge à chiffres"
 
@@ -94,7 +94,7 @@ du bas aux minutes.
 
 Le mode "Date" permet d'afficher la date à Paris. L'affichage indique sur une
 première ligne le jour de la semaine, abrégé en ses trois premières lettres.
-La ligne suivante indiquer le jour du mois, et le mois, sous forme de nombre à
+La ligne suivante indique le jour du mois, et le mois, sous forme de nombres à
 deux chiffres.
 
 #### Fonctionnement "Cozy fire"
@@ -103,9 +103,9 @@ Le mode "Cozy fire" est une fonctionnalité cachée. L'Horloge affichera une
 animation de feu de bois confortable. Ce mode de fonctionnement pousse
 l'ordinateur intégré dans ses limites, ce qui rend l'affichage saccadé malgré
 des efforts d'optimisation du fabricant. Il s'agit plus d'un challenge
-intellectuel pour ce dernier qu'une réelle fonctionnalité.
+intellectuel pour ce dernier que d'une réelle fonctionnalité.
 
-Ce mode de fonctionnent à tout de même été conservé dans la version de
+Ce mode de fonctionnent a tout de même été conservé dans la version de
 production.
 
 #### Autres modes de fonctionnements, idées et suggestions
@@ -126,7 +126,7 @@ sélectionné. Lorsque l'Horloge se trouve dans le Menu, l'affichage clignote
 en indiquant "Menu", puis en prévisualisant le Mode sélectionné, puis en
 affichant "Menu" à nouveau, etc.
 
-Dans le Menu, pressez sur "Bouton Haut" ou "Bouton Bas" pour de changer le
+Dans le Menu, pressez sur le Bouton Haut ou le Bouton Bas pour changer le
 mode sélectionné.
 
 Pour valider la sélection et sortir du Menu, pressez sur le Bouton Menu.
@@ -142,7 +142,7 @@ Pensez à toujours mettre l'Horloge en veille avant de déconnecter
 l'alimentation.
 
 Il est recommandé d'attendre encore quelque secondes après la mise en veille
-avant de débrancher l'alimentation de l'horloge.
+avant de débrancher l'alimentation de l'Horloge.
 
 Les conséquences d'une mise hors tension alors que l'Horloge n'était pas en
 veille ne seront pas nuisible dans la majorité des cas.
@@ -158,7 +158,7 @@ une heure qui n'est pas correcte en France, vous pouvez contacter le fabriquant.
 
 Vous pouvez ouvrir le boîtier de l'Horloge en retirant les vis fichées dans
 l'arrière de l'Horloge. Il est fortement déconseillé de retirer les vis situées
-sur les côtés latéraux de l'Horloge.
+sur les côtés de l'Horloge.
 
 ### Pile RTC
 
