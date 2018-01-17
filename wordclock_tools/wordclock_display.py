@@ -3,13 +3,14 @@
 # WordClock/wordclock_tools/wordclock_display.py
 # By Remi Berthoz (remi.berthoz@gmail.com)
 #
-# Last updated: mer. 17 janv. 2018 17:16:43  CET   (RB)
+# Last updated: mer. 17 janv. 2018 17:30:53  CET   (RB)
 #
 #
 # ===========================================================================
 
 from __future__ import print_function
 from wordclock_interfaces.rgbmatrix import Adafruit_RGBmatrix
+from wordclock_interfaces.rgbscript import RGBscript
 import time
 import numpy
 
@@ -30,15 +31,16 @@ class wordclockdisplay:
         # Size of the linearized representation of the physical matrix
         self.ARRAY_DIM = self.MATRIX_W * self.MATRIX_H * self.MATRIX_C
 
-        # We can use this variable to modify the output type. In the future,
-        # it might be cool to allow outputing to the command line interface
-        # for developping on a computer.
-        self.phy_type = 'adafruit-hat'
+        # We can use this variable to modify the output type
+        self.phy_type = 'script'
 
         # Physical matrix object
         if self.phy_type == 'adafruit-hat':
             self.phy_matrix = Adafruit_RGBmatrix(self.MATRIX_H,
                                                  self.MATRIX_W/self.MATRIX_H)
+        if self.phy_type == 'script':
+            self.phy_matrix = RGBscript(self.MATRIX_H,
+                                        self.MATRIX_W/self.MATRIX_H)
 
         if testing:
             self.phy_matrix = None
