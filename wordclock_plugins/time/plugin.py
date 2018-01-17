@@ -3,7 +3,7 @@
 # WordClock/wordclock_plugins/time/plugin.py
 # By Remi Berthoz (remi.berthoz@gmail.com)
 #
-# Last updated: mer. 17 janv. 2018 16:13:11  CET   (RB)
+# Last updated: mer. 17 janv. 2018 18:16:03  CET   (RB)
 #
 #
 # ===========================================================================
@@ -158,7 +158,7 @@ class plugin:
             message_words += ['bonne', 'annee']
         elif t.month == 12 and t.day == 6:
             message_words += ['joyeuses', 'fetes']
-        elif t.month == 1 and t.day == 17:
+        elif t.month == 11 and t.day == 17:
             message_words += ['joyeuse', 'fete', 'lise']
 
         r = random.randint(0, 302400)  # About once per week
