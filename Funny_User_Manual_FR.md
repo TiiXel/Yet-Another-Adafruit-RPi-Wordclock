@@ -20,7 +20,7 @@ L'Horloge est sensible aux coupures de courant. Dans la mesure du possible
 il sera nécessaire d'éteindre l'Horloge avant de déconnecter l'alimentation du
 secteur.
 
-L'Horloge n'est pas fermée hermétiquement, elle est sensible à l'humidité~:
+L'Horloge n'est pas fermée hermétiquement, elle est sensible à l'humidité :
 tenez l'Horloge éloignée de l'eau.
 
 Tenez hors de portée des enfants.
@@ -49,7 +49,7 @@ formant des mots.
 
 L'Horloge est composée d'un *Panneau Latéral* qui comporte 3 boutons poussoir
 et une entrée d'alimentation. Lorsque le Panneau Avant est à l'endroit, les
-bouton sur le Panneau Latéral sont dénommés, du haut vers le bas~: *Bouton
+bouton sur le Panneau Latéral sont dénommés, du haut vers le bas : *Bouton
 Haut*, *Bouton Menu*, *Bouton Bas*.
 
 ## Utilisation
